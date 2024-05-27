@@ -1,6 +1,6 @@
 variable "resource_group_name" {
   type        = string
-  default     = "ntier"
+  default     = "a_ntier"
   description = "This is resource group name"
 
 }
