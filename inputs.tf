@@ -20,3 +20,16 @@ variable "azure_vnet_cidr" {
 }
 
 
+variable "azure_subnet1" {
+  type        = list(string)
+  default     = ["10.10.0.0/24"]
+  description = "This is subnet cidr range"
+
+}
+
+variable "subnet_name" {
+  type        = string
+  default     = "web"
+  description = "This is subnet1 name"
+
+}
